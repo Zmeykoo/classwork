@@ -30,5 +30,8 @@ def aud(x):
 		else:
 			print('You win')
 	do()
-
+###module for 3 task
+def rec():
+def tria():
+def circ():
 	
