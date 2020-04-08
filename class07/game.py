@@ -15,11 +15,18 @@ def mnog(a,b):
 def aud(x):
 	""""Generate random int number"""
 	def do():
-		print (x)
 		c=int(input('Number:'))
 		if x!=c:
-			print('try again')
-			do()
+			if c==9999:
+				print('Do not to be sad. Lucky next time')
+			elif c==1111:
+				print('Random generate number is',x)
+			elif c<x:
+				print('Worng.Try again','x >',c)
+				do()
+			elif c>x:
+				print('Worng.Try again','x <',c)
+				do()
 		else:
 			print('You win')
 	do()

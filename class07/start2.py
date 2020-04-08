@@ -1,8 +1,9 @@
 import game, random
-print('Hello gammer! Rules in my beauty game is easy. You just must gues number :3\nRandomNumber is generated! Let start!!!')
+print('Hello gammer! Rules in my beauty game is easy.\nYou just must gues number(0,100) :3(9999 is exit number;1111 is answer)\nRandomNumber is generated! Let start!!!\n')
+
 def ran():
 	"""Функція, що генерую ціле число і підключає модуль"""
-	x=random.randint(0,10)
+	x=random.randint(0,100)
 	game.aud(x)
 	
 
